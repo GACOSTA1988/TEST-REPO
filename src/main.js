@@ -23,7 +23,7 @@ $(document).ready(function() {
 
     // THIS WILL DISPLAY API FUNCTION RETURN ON (DOM)
     function getElements(response) {
-      
+
       // THIS WILL CATCH IF SEARCH RESULTS ARE BAD(NON ERROR TYPE)
       const doesArtistExist = response.meta.total > 0;
 
