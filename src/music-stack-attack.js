@@ -3,7 +3,7 @@ export class ArtistByName {
     try {
 
       // THIS WILL CALL API WITH ARTIST NAME AS QUERY INPUT
-      let response =  await fetch(`https://api.discogs.com/database/search?q=Misfits&key=${process.env.API_KEY}&secret=${process.env.API_SECRET}`);
+      let response =  await fetch(`https://api.discogs.com/database/search?q=${inputedArtist}&key=${process.env.API_KEY}&secret=${process.env.API_SECRET}`);
 
         let jsonifiedResponse = await response.json();
         return jsonifiedResponse;
