@@ -31,8 +31,13 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.4",
+    "express": "~4.16.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
+    "querystring": "~0.2.0",
+    "request": "~2.83.0",
     "set-interval-async": "1.0.29",
     "url-loader": "^2.2.0"
   }
